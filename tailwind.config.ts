@@ -18,6 +18,15 @@ const config: Config = {
         'bebas': ['Bebas Neue', 'serif'], 
         'karla': ['Karla', 'sans-serif']
       },
+      animation: {
+        'slide-in': 'slideIn 0.5s ease-in-out',
+      },
+      keyframes: {
+        slideIn: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0)' },
+        },
+      },
     },
   },
   plugins: [],

@@ -31,5 +31,8 @@
   @apply text-[25px] text-[#535353] font-light mt-5 font-kaisei;
 }
 
+.basic__subtitle-black {
+ @apply text-[25px] text-black font-light  font-kaisei ;
 
+}
  

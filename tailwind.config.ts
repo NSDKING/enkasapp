@@ -16,6 +16,7 @@ const config: Config = {
       fontFamily: {
         'kaisei': ['Kaisei Opti', 'serif'], 
         'bebas': ['Bebas Neue', 'serif'], 
+        'karla': ['Karla', 'sans-serif']
       },
     },
   },
